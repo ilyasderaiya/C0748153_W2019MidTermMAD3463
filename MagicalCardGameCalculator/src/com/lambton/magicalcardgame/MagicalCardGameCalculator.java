@@ -28,5 +28,14 @@ public class MagicalCardGameCalculator {
             }
             System.out.println();
         }
+
+
+        FirstShuffle FS = new FirstShuffle();
+        FS.getFirstShuffle();
+
+        SecontShuffle SS = new SecontShuffle();
+        SS.getSecondShuffle();
+
+
     }
 }
