@@ -26,6 +26,17 @@ public class FirstShuffle extends MagicalCardGameCalculator{
                 Matrix1[n+1][i] = M[i][n+1];
             }
         }
+        else if( n == 2){
+            for (int i = 0; i < 3; i++){
+                Matrix1[n-1][i] = M[i][n];
+            }
+            for(int i =0; i< 3; i++){
+                Matrix1[n][i] = M[i][n-1];
+            }
+            for(int i =0; i< 3; i++){
+                Matrix1[n+1][i] = M[i][n+1];
+            }
+        }
 
 
     }
