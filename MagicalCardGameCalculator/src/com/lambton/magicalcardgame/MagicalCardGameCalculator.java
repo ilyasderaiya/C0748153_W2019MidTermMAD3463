@@ -19,7 +19,7 @@ public class MagicalCardGameCalculator {
             }
         }
         System.out.println("Elements in Matrix are : ");
-        System.out.println("");
+        System.out.println(" ");
         for(i=0;i<=2;i++)
         {
             for(j=0;j<=2;j++)
